@@ -4,12 +4,12 @@ import TarefasController from './src/controllers/Tarefas.js'
 
 
 const app = express()
-const port = process.env.PORT | 3000
+const port = process.env.PORT || 3000
 
 app.listen(port, () => {
   console.log(`Esta rodando`)
 })
 
-
+app.use(express.json())
 UsuariosController.rotas(app)
 TarefasController.rotas(app)
