@@ -1,6 +1,6 @@
 import express from 'express'
-import UsuariosController from './src/controllers/Usuarios.js'
-import TarefasController from './src/controllers/Tarefas.js'
+import UsuariosController from './src/controllers/UsuariosController.js'
+import TarefasController from './src/controllers/TarefasController.js'
 
 
 const app = express()
