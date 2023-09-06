@@ -6,4 +6,4 @@ class UsuariosModel{
     }
 }
 
-export default UsuarioModel
+export default UsuariosModel
