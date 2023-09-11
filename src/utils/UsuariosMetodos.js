@@ -1,4 +1,4 @@
-import DatabaseMetodos from "../database/DatabaseMetodos.js";
+import DatabaseMetodos from "./DatabaseMetodos.js";
 import UsuariosModel from "../models/UsuariosModel.js";
 
 const USUARIOS_TABELA = "Usuarios"
