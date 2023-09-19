@@ -1,4 +1,3 @@
-import { query } from "express";
 import Database from "../database/Database.js";
 
 class DAO {
